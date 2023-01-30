@@ -74,7 +74,7 @@ function AddCSS(){
 }
 
 function RemoveCSS(){
-    
+    console.log(`Dentre as propriedades listadas: ${listaPropriedades}`);
     inquirer
     .prompt([
         {
